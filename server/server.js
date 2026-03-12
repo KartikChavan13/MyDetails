@@ -14,6 +14,7 @@ const db = mysql.createConnection({
   user: "root",
   password: "VTZIIOFSDrrIdNiIaLPsJhIzmDvzEpgv",
   database: "test",
+  mysql:"//root:VTZIIOFSDrrIdNiIaLPsJhIzmDvzEpgv@yamabiko.proxy.rlwy.net:11665/railway"
 });
 
 db.connect((err) => {
